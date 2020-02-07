@@ -1,0 +1,9 @@
+kumuluzee:
+  server:
+    http:
+      port: 8081
+
+  rest-client:
+    registrations:
+    - class: org.openapitools.client.api.PetApi.class
+      url: http://localhost:8080/v2
