@@ -5,5 +5,5 @@ kumuluzee:
 
   rest-client:
     registrations:
-    - class: org.openapitools.client.api.PetApi.class
+    - class: org.openapitools.client.api.TestApi
       url: http://localhost:8080/v2
